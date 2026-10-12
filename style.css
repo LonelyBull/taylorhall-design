@@ -1,9 +1,9 @@
-/* Reset basic page margins and set default font */
+/* Clean Reset & Body Styling */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    color: #e0e0e0;
-    background-color: #121212;
+    color: #222222;            /* Soft off-black text (easy to read) */
+    background-color: #ffffff; /* Standard clean white background */
     margin: 0;
     padding: 20px;
     max-width: 800px;
@@ -11,22 +11,9 @@ body {
     margin-right: auto;
 }
 
-h1, h2 {
-    color: #ffffff;
-}
-
-.project-card {
-    background-color: #1e1e1e;
-    border: 1px solid #333333;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
-    color: #e0e0e0;
-}
-
-/* Header Styling */
+/* Header */
 header {
-    border-bottom: 2px solid #eeeeee;
+    border-bottom: 1px solid #e0e0e0;
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
@@ -37,24 +24,24 @@ h1 {
     color: #111111;
 }
 
-/* Section Styling */
+/* Headings */
 h2 {
     font-size: 1.5rem;
     margin-top: 30px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #eeeeee;
     padding-bottom: 5px;
+    color: #111111;
 }
 
-/* Project Cards */
+/* Simple Project Sections (No card backgrounds/borders) */
 .project-card {
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
+    background-color: transparent; /* Removes white card background */
+    border: none;                  /* Removes box borders */
+    padding: 10px 0;
+    margin-bottom: 20px;
 }
 
-/* Footer Styling */
+/* Footer */
 footer {
     margin-top: 50px;
     font-size: 0.85rem;
