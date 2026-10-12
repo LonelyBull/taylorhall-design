@@ -1,105 +1,64 @@
-/* Google Fonts Import */
+/* Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-
+/* Clean Reset & Body Styling */
 body {
-    font-family: 'Figtree', -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.7;
-    color: #1a1a1a;
-    background-color: #fafafa;
+    font-family: 'Figtree', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #2b2927;                     /* Rich charcoal text */
+    background-color: #f7f5f0 !important; /* Warm Cream background (forced) */
     margin: 0;
-    padding: 40px 20px;
-    max-width: 850px;
+    padding: 20px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-font-smoothing: antialiased;
 }
 
 /* Header */
 header {
-    border-bottom: 1px solid #1a1a1a;
-    padding-bottom: 30px;
-    margin-bottom: 40px;
+    border-bottom: 1px solid #dcd8d0;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 h1 {
-    font-size: 2.8rem;
-    font-weight: 600;
-    letter-spacing: -0.03em;
-    margin: 0 0 8px 0;
-    color: #1a1a1a;
-}
-
-header p {
-    font-size: 1.1rem;
-    color: #666666;
-    margin: 0;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #1c1b1a;
 }
 
 /* Headings */
 h2 {
-    font-size: 1.4rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 10px;
-}
-
-/* Paragraphs & Text */
-p {
-    font-size: 1.05rem;
-    color: #333333;
-    font-weight: 400;
-}
-
-/* Images & Figures */
-figure {
-    margin: 30px 0;
-}
-
-img {
-    border-radius: 2px;
-}
-
-figcaption {
-    font-size: 0.85rem;
-    color: #777777;
-    margin-top: 10px;
-    letter-spacing: 0.02em;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    border-bottom: 1px solid #dcd8d0;
+    padding-bottom: 5px;
+    color: #1c1b1a;
 }
 
 /* Project Cards */
 .project-card {
-    border: 1px solid #e0e0e0;
-    padding: 24px;
+    background-color: #ffffff; /* Crisp white cards on top of cream background */
+    border: 1px solid #e4e0d8;
+    border-radius: 6px;
+    padding: 20px;
     margin-bottom: 20px;
-    background-color: #f5f2eb;
-    transition: border-color 0.2s ease;
-}
-
-.project-card:hover {
-    border-color: #1a1a1a;
 }
 
 .project-card h3 {
     margin-top: 0;
-    font-size: 1.25rem;
+    color: #1c1b1a;
+}
+
+/* Captions */
+figcaption {
+    color: #736e65 !important;
 }
 
 /* Footer */
 footer {
-    margin-top: 80px;
-    padding-top: 20px;
-    border-top: 1px solid #e5e5e5;
+    margin-top: 50px;
     font-size: 0.85rem;
-    color: #888888;
-    text-align: left;
+    color: #8c867a;
+    text-align: center;
 }
