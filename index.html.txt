@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Hall | Portfolio</title>
+    <!-- This line connects your CSS file to your HTML file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Taylor Hall</h1>
+        <p>Design & Creative Work</p>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I am a designer creating visual work and projects.</p>
+        </section>
+
+        <section class="projects">
+            <h2>Featured Work</h2>
+            <div class="project-card">
+                <h3>Project Title 1</h3>
+                <p>A brief description of your design project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Title 2</h3>
+                <p>A brief description of another project.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Taylor Hall. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
